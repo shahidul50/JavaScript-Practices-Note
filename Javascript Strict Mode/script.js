@@ -83,7 +83,7 @@
     // eval ("x = 2");
     // alert (x);      // This will cause an error
 }
-//* কিছু future reserved keyword(implements,interface, package,public, private, protected, static, yield) এগুলো ব্যবহার করা।
+//* কিছু future reserved keyword(implements,interface, package,public, private, protected, static, yield) এগুলো ব্যবহার না করা।
 {
    // let public = 1500;      // This will cause an error
 }
