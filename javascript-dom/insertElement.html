@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Element on DOM</title>
+    <style>
+        /* #fruitList li:last-child{
+            display: none;
+        } */
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <ul id="fruitList">
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>Banana</li>
+            <li>Guava</li>
+        </ul>
+    </div>
+
+    <script>
+         const div = document.querySelector('.wrapper');
+        // div.setAttribute('data-atrr', 'test')
+        // div.setAttribute('data-name', 'Value')
+        // div.removeAttribute('data-name')
+        // const newEl = document.createElement('p')
+
+        // const uList = document.getElementById('fruitList')
+        // const fruitList = document.querySelector('#fruitList')
+        // const liElem = document.createElement('li')
+        // liElem.innerText = 'Shahidul';
+        // // fruitList.append(liElem)
+        // const reli = fruitList.children[1]
+        // const reChild = fruitList.insertBefore(liElem,reli)
+        // console.log(reChild);
+        const newElement1 = document.createElement('h2');
+        const newElement2 = document.createElement('h2');
+        const newElement3 = document.createElement('h2');
+        const newElement4 = document.createElement('h2');
+        newElement1.innerText = 'Before Begin';
+        const returnValue1 = div.insertAdjacentElement('beforebegin', newElement1);
+        newElement2.innerText = 'After Begin';
+        const returnValue2 = div.insertAdjacentElement('afterbegin', newElement2);
+        newElement3.innerText = 'Before end';
+        const returnValue3 = div.insertAdjacentElement('beforeend', newElement3);
+        newElement4.innerText = 'After end';
+        const returnValue4 = div.insertAdjacentElement('afterend', newElement4);
+        console.log(returnValue1);
+        console.log(returnValue2);
+        console.log(returnValue3);
+        console.log(returnValue4);
+
+       
+    </script>
+</body>
+</html>

@@ -1,3 +1,4 @@
+// mutable
 //first variable declaring
 let x;   //Allowed
   x= 5;  //Allowed

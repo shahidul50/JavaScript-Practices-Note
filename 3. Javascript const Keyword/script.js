@@ -1,3 +1,4 @@
+//immutable.
 //first variable declaring
 const x= 5;   //Allowed
 console.log(x);

@@ -1,3 +1,4 @@
+//mutable
 //first variable declaring
 var x; //Allowed
 x= 5;  //Allowed

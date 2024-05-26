@@ -49,4 +49,7 @@
 //* In Programming, Asynchronous Behavior good or bad?
 // Asynchronous Behavior আসলে খারাপ কিছু না। এটাতে সময় অনেক কম অপচয় হয়। এছাড়া এটাকে Handle করার জন্য Javascript এ অনেকগুলো Technique আছে তাই কোন জামেলা নাই। এইগুলো নিয়ে পরে আলোচনা করা হবে।
 
+//clearInterval()
+//clearTimeout()
+
 
