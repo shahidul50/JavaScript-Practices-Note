@@ -37,7 +37,7 @@
 }
 
 //* The getDay() Method
-//এটি একটি Date object থেকে day কে একটি Number(0-6) হিসাবে প্রদান করে। jJavaScript এ Day count শুরু হয় Sunday থেকে। 
+//এটি একটি Date object থেকে day কে একটি Number(0-6) হিসাবে প্রদান করে। JavaScript এ Day count শুরু হয় Sunday থেকে। 
 {
     const date = new Date();
     console.log(date.getDay()); 
